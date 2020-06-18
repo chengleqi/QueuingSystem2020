@@ -67,6 +67,7 @@
     <Compile Include="Service\IotService\IotGetService.cs" />
     <Compile Include="Service\LoginService\LoginService.cs" />
     <Compile Include="Service\NleService.cs" />
+    <Compile Include="view\DynamicDataDisplay.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using QueuingSystem2020.Service.IotService;
 
 namespace QueuingSystem2020
 {
@@ -16,7 +17,22 @@ namespace QueuingSystem2020
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
+            
+        }
 
+        private void StartTake_Click(object sender, RoutedEventArgs e)
+        {
+            IotCmdService.StartTake();
+        }
+
+        private void PauseTake_Click(object sender, RoutedEventArgs e)
+        {
+            IotCmdService.PauseTake();
+        }
+
+        private void CallNumber_Click(object sender, RoutedEventArgs e)
+        {
+            IotCmdService.CallNumber();
         }
     }
 }

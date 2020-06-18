@@ -63,11 +63,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Service\IotService\IotPostService.cs" />
     <Compile Include="Service\IotService\IotGetService.cs" />
     <Compile Include="Service\LoginService\LoginService.cs" />
     <Compile Include="Service\NleService.cs" />
     <Compile Include="view\DynamicDataDisplay.cs" />
+    <Page Include="Login.xaml" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

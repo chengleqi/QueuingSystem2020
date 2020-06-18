@@ -4,7 +4,7 @@ namespace QueuingSystem2020.Service.LoginService
 {
     public class LoginService : NleService
     {
-        private static bool UserLogin(AccountLoginDTO submitData)
+        public static bool UserLogin(AccountLoginDTO submitData)
         {
             var qry = Sdk.UserLogin(submitData);
             if (!qry.IsSuccess()) return false;

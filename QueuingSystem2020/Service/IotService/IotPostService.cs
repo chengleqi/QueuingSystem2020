@@ -1,6 +1,6 @@
 ﻿namespace QueuingSystem2020.Service.IotService
 {
-    public class IotCmdService : NleService
+    public class IotPostService : NleService
     {
         public static void StartTake()
         {

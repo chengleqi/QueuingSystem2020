@@ -63,7 +63,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Service\IotService\IotCmdService.cs" />
+    <Compile Include="Service\IotService\IotPostService.cs" />
     <Compile Include="Service\IotService\IotGetService.cs" />
     <Compile Include="Service\LoginService\LoginService.cs" />
     <Compile Include="Service\NleService.cs" />
